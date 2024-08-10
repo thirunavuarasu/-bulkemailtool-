@@ -1,0 +1,20 @@
+import { combineReducers } from 'redux';
+
+// Example reducers
+const userReducer = (state = {}, action) => {
+  // reducer logic
+  return state;
+};
+
+const postsReducer = (state = [], action) => {
+  // reducer logic
+  return state;
+};
+
+// Combine reducers
+const rootReducer = combineReducers({
+  user: userReducer,
+  posts: postsReducer,
+});
+
+export default rootReducer;
